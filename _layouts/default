@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Pranjal Dhole</title>
+		<title>{{page.title}}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
@@ -9,8 +9,8 @@
 	<body>
 		<nav>
         		<a class=active href="/">Home</a><td width=10%></td>
-						<a href="/blog">Fun-stuff</a>
-						<a href="/news">News</a>
+				<a href="/blog">Fun-stuff</a>
+				<a href="/news">News</a>
         		<a href="/contact">Me</a>
 		</nav>
 		<hr>
