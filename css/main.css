@@ -1,6 +1,10 @@
 body {
     margin: 60px auto;
     width: 70%;
+    BGCOLOR: 207090;
+    TEXT: "d8d8ff";
+    LINK: "00cae7";
+    VLINK: "00cae7";
 }
 
 li a:hover:not(.active) {
@@ -42,8 +46,8 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
