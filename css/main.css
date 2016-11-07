@@ -1,10 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    BGCOLOR: 207090;
-    TEXT: "d8d8ff";
-    LINK: "00cae7";
-    VLINK: "00cae7";
+    background-color: lightblue;
 }
 
 li a:hover:not(.active) {
