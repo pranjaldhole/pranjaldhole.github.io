@@ -1,11 +1,11 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: E6E6FA;
+    background-color: #ffffff;
 }
 
 li a:hover:not(.active) {
-    background-color: E6E6FA;
+    background-color: #ffffff;
 }
 
 .active {
