@@ -87,22 +87,13 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-}
-/* Lists */
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
 }
 /* style for CV page */
 .cv_table {
@@ -149,7 +140,7 @@ ul.posts li {
 	margin: 0;
 	padding: 0;
 	margin-left: 1em;
-	font-size: 0.8em;
+	font-size: 0.7em;
 }
 .cv_thesis_table td {
 	cell-spacing: 0;
