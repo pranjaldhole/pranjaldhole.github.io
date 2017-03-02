@@ -74,7 +74,6 @@ li a:hover:not(.active) {
 .topnav a.current {
 	font-weight: bold;
 	color: white;
-  background-color: #00b33c;
 }
 .topnav a:hover {
 	color: white;
