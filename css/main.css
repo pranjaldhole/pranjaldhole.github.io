@@ -105,38 +105,40 @@ ul.posts li {
 }
 
 .cv_table {
-	width: 90%;
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 1em;
+	line-height: 1.4em;
 }
-
+.cv_table_td_left {
+	width: 7em;
+	text-align: right;
+	vertical-align: top;
+	border-right: 1px solid #007c41; /*navy; */
+	padding-right: 0.5em;
+	height: 120px;
+}
 .cv_table_td_right {
-	padding-bottom: 5em;
+	vertical-align: top;
+	padding-left: 0.5em;
+	padding-bottom: 1em;
 }
-
-.cv_table_td_right img {
-	float: right;
-	padding: 0;
-	margin: 0;
-	margin-left: 1em;
+.cv_table_td_image {
+	width: 225px;
+	text-align: right;
+	vertical-align: top;
+}
+.cv_table_td_image img {
+	border: 0;
+}
+.cv_highlight {
+	display: block;
 	margin-bottom: 1em;
 }
-.cv_table_td_right p {
-	margin: 0;
+.cv_detail_highlight {
+	font-weight: bold;
+	color: #444;
 }
-
-.cv_thesis_table {
-	text-align: left;
-	border-collapse: collapse;
-	border: 0;
-	margin: 0;
-	padding: 0;
-	margin-left: 1em;
-	font-size: 1.1em;
-}
-.cv_thesis_table td {
-	cell-spacing: 0;
-	border: 0;
-	padding: 0;
-	vertical-align: top;
-	padding-right: 0.5em;
-	max-width: 33em;
+.cv_detail_regular {
+	padding-left: 1em;
 }
