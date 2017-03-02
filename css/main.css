@@ -62,7 +62,7 @@ li a:hover:not(.active) {
 }
 .topnav li {
 	margin: 0;
-	padding: 0;
+	padding: 1.5em;
 	display: inline-block;
 	margin-right: 1.5em;
 	line-height: 40px;
