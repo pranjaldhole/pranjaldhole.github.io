@@ -129,7 +129,7 @@ ul.posts li {
 	vertical-align: top;
 }
 .cv_table_td_image img {
-	border: 0;
+	border: 0; float: right;
 }
 .cv_highlight {
 	display: block;
