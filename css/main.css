@@ -87,8 +87,8 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.2em;
-    line-height: 1.4em;
+    font-size: 1em;
+    line-height: 1.2em;
     color: #333;
 }
 footer {
@@ -104,7 +104,7 @@ footer {
 }
 .cv_table_td_left {
 	width: 12em;
-	text-align: right;
+	text-align: left;
 	vertical-align: top;
 	border-right: 1px solid #007c41; /*navy; */
 	padding-right: 0.5em;
@@ -140,7 +140,7 @@ footer {
 	margin: 0;
 	padding: 0;
 	margin-left: 1em;
-	font-size: 0.7em;
+	font-size: 1em;
 }
 .cv_thesis_table td {
 	cell-spacing: 0;
