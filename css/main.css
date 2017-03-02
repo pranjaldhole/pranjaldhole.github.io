@@ -45,15 +45,10 @@ body {
     padding-bottom: 2em;
 }
 
-li a:hover:not(.active) {
-    background-color: #ffffff;
-}
-
 .topnav {
 	list-style: none;
 	margin: 0;
 	padding: 20px;
-	/* background: #007c41; */
 	background: #007c41;
 	padding-top: 1em;
 	padding-left: 15%;
@@ -61,7 +56,7 @@ li a:hover:not(.active) {
 	padding-bottom: 50px;
 }
 .topnav li {
-	margin: 0;
+	margin: 10px;
 	padding: 1.5em;
 	display: inline-block;
 	margin-right: 1.5em;
@@ -79,17 +74,6 @@ li a:hover:not(.active) {
 	color: white;
 }
 
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    background-color: #333;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
 a {
     text-decoration: none;
     color: #333;
