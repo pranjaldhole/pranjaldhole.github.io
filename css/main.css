@@ -121,7 +121,14 @@ ul.posts li {
 .cv_table_td_right {
 	vertical-align: top;
 	padding-left: 0.5em;
-	padding-bottom: 1em;
+	padding-bottom: 5em;
+}
+.cv_table_td_right img {
+float: right;
+padding: 0;
+margin: 0;
+margin-left: 1em;
+margin-bottom: 1em;
 }
 .cv_table_td_image {
 	width: 225px;
