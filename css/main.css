@@ -39,7 +39,7 @@
 /* Body */
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 75%;
     font-family: LM Sans Regular, Open Sans, sans-serif;
     background-color: #ffffff;
     background: bottom center fixed;
@@ -104,7 +104,7 @@ footer {
 }
 .cv_table_td_left {
 	width: 12em;
-	text-align: left;
+	text-align: right;
 	vertical-align: top;
 	border-right: 1px solid #007c41; /*navy; */
 	padding-right: 0.5em;
