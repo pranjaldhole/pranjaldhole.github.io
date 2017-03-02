@@ -103,3 +103,40 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.cv_table {
+	width: 100%;
+}
+
+.cv_table_td_right {
+	padding-bottom: 5em;
+}
+
+.cv_table_td_right img {
+	float: right;
+	padding: 0;
+	margin: 0;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+.cv_table_td_right p {
+	margin: 0;
+}
+
+.cv_thesis_table {
+	text-align: left;
+	border-collapse: collapse;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	margin-left: 1em;
+	font-size: 1.1em;
+}
+.cv_thesis_table td {
+	cell-spacing: 0;
+	border: 0;
+	padding: 0;
+	vertical-align: top;
+	padding-right: 0.5em;
+	max-width: 33em;
+}
