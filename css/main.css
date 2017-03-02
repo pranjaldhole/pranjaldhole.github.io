@@ -126,6 +126,7 @@ ul.posts li {
 .cv_table_td_right img {
 float: right;
 padding: 0;
+align: bottom;
 margin: 0;
 margin-left: 1em;
 margin-bottom: 1em;
