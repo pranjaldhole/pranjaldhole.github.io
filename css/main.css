@@ -103,8 +103,8 @@ footer {
 	line-height: 1em;
 }
 .cv_table_td_left {
-	width: 12em;
-	text-align: center;
+	width: 18em;
+	text-align: right;
 	vertical-align: top;
 	border-right: 1px solid #007c41; /*navy; */
 	padding-right: 0.5em;
