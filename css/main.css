@@ -109,10 +109,10 @@ ul.posts li {
 	width: 100%;
 	border-collapse: collapse;
 	margin-bottom: 1em;
-	line-height: 1.4em;
+	line-height: 1em;
 }
 .cv_table_td_left {
-	width: 7em;
+	width: 12em;
 	text-align: right;
 	vertical-align: top;
 	border-right: 1px solid #007c41; /*navy; */
@@ -122,12 +122,11 @@ ul.posts li {
 .cv_table_td_right {
 	vertical-align: top;
 	padding-left: 0.5em;
-	padding-bottom: 3em;
+	padding-bottom: 2em;
 }
 .cv_table_td_right img {
 	float: right;
 	padding: 0;
-	vertical-align: bottom;
 	margin: 0;
 	margin-left: 1em;
 	margin-bottom: 1em;
