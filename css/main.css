@@ -104,7 +104,7 @@ footer {
 }
 .cv_table_td_left {
 	width: 12em;
-	text-align: right;
+	text-align: center;
 	vertical-align: top;
 	border-right: 1px solid #007c41; /*navy; */
 	padding-right: 0.5em;
