@@ -1,3 +1,6 @@
+/*--------------------------------------------------
+FONTS
+--------------------------------------------------*/
 /* fonts */
 @font-face{
 	font-family: 'LM Sans Regular';
@@ -15,7 +18,9 @@
 		 url('fonts/Sans/cmunsx.ttf') format('truetype'),
 		 url('fonts/Sans/cmunsx.svg#webfont') format('svg');
 }
-/* Header */
+/*--------------------------------------------------
+HEADER
+--------------------------------------------------*/
 .header {
 	margin: 0;
 	margin-top: 50px;
@@ -36,7 +41,9 @@
 	margin-left: 15%;
 	padding-top: 0px;
 }
-/* Body */
+/*--------------------------------------------------
+BODY
+--------------------------------------------------*/
 body {
     margin: 60px auto;
     width: 75%;
@@ -45,7 +52,9 @@ body {
     background: bottom center fixed;
     padding-bottom: 2em;
 }
-/* Navigation panel */
+/*--------------------------------------------------
+NAV
+--------------------------------------------------*/
 .topnav {
 	list-style: none;
 	margin: 0;
@@ -74,7 +83,9 @@ body {
 .topnav a:hover {
 	color: white;
 }
-/* items */
+/*--------------------------------------------------
+ITEMS
+--------------------------------------------------*/
 a {
     text-decoration: none;
     color: #333;
@@ -95,7 +106,9 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-/* style for CV page */
+/*--------------------------------------------------
+style for CV page
+--------------------------------------------------*/
 .cv_table {
 	width: 100%;
 	border-collapse: collapse;
@@ -139,6 +152,7 @@ footer {
 	border: 0;
 	margin: 0;
 	padding: 0;
+	color: #333;
 	margin-left: 1em;
 	font-size: 1em;
 }
