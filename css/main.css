@@ -102,7 +102,7 @@ h1 {
 p {
     font-size: 1em;
     line-height: 1.2em;
-    color: #333;
+    color: #000000;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -143,7 +143,7 @@ style for CV page
 }
 .cv_detail_highlight {
 	font-weight: bold;
-	color: #333;
+	color: #000000;
 }
 .cv_detail_regular {
 	padding-left: 0.2em;
@@ -154,7 +154,7 @@ style for CV page
 	border: 0;
 	margin: 0;
 	padding: 0;
-	color: #333;
+	color: #000000;
 	margin-left: 1em;
 	font-size: 1em;
 }
