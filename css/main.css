@@ -69,18 +69,10 @@ NAV
 	margin: 0;
 	padding: 0;
 	display: inline-block;
-	border-right: 5px solid #bbb;
-	border-left: 5px solid #bbb;
 	margin-right: 1.5em;
 	line-height: 40px;
 }
-.topnav li:first-child {
-	border-left: none;
-}
 
-.topnav li:last-child {
-	border-right: none;
-}
 .topnav a, .topnav a:link, .topnav a:visited {
 	text-decoration: none;
 	color: #dddddd;
