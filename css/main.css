@@ -78,6 +78,7 @@ NAV
 }
 .topnav a.current {
 	font-weight: bold;
+	text-decoration: underline;
 	color: white;
 }
 .topnav a:hover {
