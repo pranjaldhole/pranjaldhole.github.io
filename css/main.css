@@ -59,7 +59,7 @@ NAV
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	background: #007c41;
+	background: #333;
 	padding-top: 1em;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -90,7 +90,7 @@ ITEMS
 --------------------------------------------------*/
 a {
     text-decoration: none;
-    color: #007c41;
+    color: #15419e;
 }
 a:hover {
     text-decoration: underline;
