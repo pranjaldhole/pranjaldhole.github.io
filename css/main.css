@@ -61,16 +61,21 @@ NAV
 	padding: 0;
 	background: #007c41;
 	padding-top: 1em;
-	padding-left: 15%;
-	padding-right: 15%;
-	padding-bottom: 30px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 25px;
 }
 .topnav li {
 	margin: 0;
 	padding: 0;
 	display: inline-block;
+	border-right: 1px solid #bbb;
 	margin-right: 1.5em;
 	line-height: 40px;
+}
+
+.topnav li:last-child {
+	border-right: none;
 }
 .topnav a, .topnav a:link, .topnav a:visited {
 	text-decoration: none;
