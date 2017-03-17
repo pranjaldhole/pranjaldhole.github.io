@@ -1,4 +1,12 @@
 /*--------------------------------------------------
+Notes:
+1. Order of class declaration matters in CSS.
+	 What is declared later takes precedence over prior declaration in case of
+	 overlap.
+2. ID declarations override class declarations.
+3. Inline styles ovverride class declarations.
+--------------------------------------------------*/
+/*--------------------------------------------------
 FONTS
 --------------------------------------------------*/
 /* fonts */
