@@ -53,7 +53,7 @@ HEADER
 BODY
 --------------------------------------------------*/
 body {
-    margin: 60px auto;
+    margin: 0px auto;
     width: 75%;
     font-family: LM Sans Regular, Open Sans, sans-serif;
     background-color: #ffffff;
@@ -68,10 +68,10 @@ NAV
 	margin: 0;
 	padding: 0;
 	background: #333;
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 .topnav li {
 	margin: 0;
