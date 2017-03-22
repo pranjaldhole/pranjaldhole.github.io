@@ -2,40 +2,67 @@
   <head>
     <title>My research</title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   </head>
+  <script type="text/javascript">
+    function unhide(divID, hidDivId1, hidDivId2) {
+    var item = document.getElementById(divID);
+    if (item) {
+            item.className=(item.className=='hidden')?'unhidden':'hidden';
+        }
+        document.getElementById(hidDivId1).className = 'hidden';
+        document.getElementById(hidDivId2).className = 'hidden';
+    }
+</script>
+    </script>
   <body>
     <div>
-      <ul class="topnav">
+      <nav class="topnav">
         <li><a href="/">Home</a></li>
         <li><a href="/research">Academic Interests</a></li>
         <li><a class=current href="/fun_stuff">Fun stuff</a></li>
         <li><a href="/projects">Projects</a></li>
         <li><a href="/publications">Publications</a></li>
         <li><a href="/contact/cv.html">CV</a></li>
-        <li style="float:right"><a href="/contact">Contact</a></li>
-      </ul>
+        <!---<li style="float:right"><a href="/contact">Blog</a></li>--->
+      </nav>
     </div>
-
-       <br>This page is dedicated to interesting mathematics and programming problems
-      I find fun to work on.
       <hr>
-      <h3> Math Teasers: </h3>
-      <ol>
-          <li>What is the volume of intersection of three infinitely long
-              pipes that are orthogonal to each other? Each pipe has unit
-              radius. (Hint: The answer doesn't involve pi.)</li>
-      </ol>
-      <hr>
-
-      Links to websites for math and programming problems:
-      <ul>
-          <li><a href="https://projecteuler.net/" target=_blank>Project Euler</a>:
-            This website contains huge number of mathematical and computer
-            programming related problems. The problems are
-            tailored in such a way that the best way to obtain a solution, if
-            you are not a math genius, is with the use of a computer
-            and good programming skills.</li>
+      <ul class="sidenav">
+        <li><a href="javascript:unhide('webdev', 'maths', 'programming')">Web Development</a></li>
+        <li><a href="javascript:unhide('maths', 'programming', 'webdev')">Math Teasers</a></li>
+        <li><a href="javascript:unhide('programming', 'maths', 'webdev')">Programming</a></li>
       </ul>
-      <hr>
+      <div class="content" style="width:65%">
+        <div id="webdev" class="unhidden">
+          <h3> Web Development Projects </h3>
+          Checkout few of my web development projects on  <a href="http://codepen.io/pranjaldhole/"
+          target="_blank" class="social">
+          <i id="code" class="icon-code fa fa-codepen">codepen.io</i></i></a>
+        </div>
+
+        <div id="maths" class="hidden">
+          <h3> Math Teasers </h3>
+          This page has a variety of mathematics problems/brain teasers which I
+          have come across and solved at different times.
+          <ol>
+              <li>What is the volume of intersection of three infinitely long
+                  pipes that are orthogonal to each other? Each pipe has unit
+                  radius. (Hint: The answer doesn't involve pi.)</li>
+          </ol>
+        </div>
+        <div id="programming" class="hidden">
+          <h3> Computer Programming </h3>
+          Links to websites for programming problems:
+          <ul>
+              <li><a href="https://projecteuler.net/" target=_blank>Project Euler</a>:
+                This website contains huge number of mathematical and computer
+                programming related problems. The problems are
+                tailored in such a way that the best way to obtain a solution, if
+                you are not a math genius, is with the use of a computer
+                and good programming skills.</li>
+          </ul>
+        </div>
+      </div>
   </body>
 </html>
