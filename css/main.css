@@ -60,8 +60,14 @@ body {
     background: bottom center fixed;
     padding-bottom: 2em;
 }
+.hidden{
+    display:none;
+}
+.unhidden{
+    display:block;
+}
 /*--------------------------------------------------
-NAV
+TopNAV
 --------------------------------------------------*/
 .topnav {
 	list-style: none;
@@ -90,6 +96,62 @@ NAV
 .topnav a:hover {
 	color: white;
 	background-color: #111;
+}
+/*--------------------------------------------------
+SideNAV
+--------------------------------------------------*/
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.sidenav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+/* Toggle nav bar horizontal and vertical */
+@media screen and (max-width: 1050px){
+    ul.sidenav {
+        width:100%;
+        height:auto;
+        position:relative;
+    }
+    ul.sidenav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.content {margin-left:0;}
+}
+
+@media screen and (max-width: 400px){
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
 }
 /*--------------------------------------------------
 ITEMS
@@ -121,15 +183,15 @@ footer {
 	border-style: ridge;
 }
 /*--------------------------------------------------
-style for CV page
+style for creating timeline-like table
 --------------------------------------------------*/
-.cv_table {
+.time_table {
 	width: 100%;
 	border-collapse: collapse;
 	margin-bottom: 1em;
 	line-height: 1em;
 }
-.cv_table_td_left {
+.time_table_td_left {
 	width: 18em;
 	text-align: right;
 	vertical-align: top;
@@ -137,12 +199,12 @@ style for CV page
 	padding-right: 0.5em;
 	height: 120px;
 }
-.cv_table_td_right {
+.time_table_td_right {
 	vertical-align: top;
 	padding-left: 0.5em;
 	padding-bottom: 2em;
 }
-.cv_table_td_right img {
+.time_table_td_right img {
 	float: right;
 	padding: 0;
 	margin: 0;
@@ -151,18 +213,18 @@ style for CV page
 	margin-left: 1em;
 	margin-bottom: 1em;
 }
-.cv_highlight {
+.time_highlight {
 	display: block;
 	margin-bottom: 1em;
 }
-.cv_detail_highlight {
+.time_detail_highlight {
 	font-weight: bold;
 	color: #000000;
 }
-.cv_detail_regular {
+.time_detail_regular {
 	padding-left: 0.2em;
 }
-.cv_thesis_table {
+.time_thesis_table {
 	text-align: left;
 	border-collapse: collapse;
 	border: 0;
@@ -172,11 +234,149 @@ style for CV page
 	margin-left: 1em;
 	font-size: 1em;
 }
-.cv_thesis_table td {
+.time_thesis_table td {
 	cell-spacing: 0;
 	border: 0;
 	padding: 0;
 	vertical-align: top;
 	padding-right: 0.5em;
 	max-width: 33em;
+}
+/*--------------------------------------------------
+smart social contact buttons
+--------------------------------------------------*/
+.social {
+  text-align: center;
+  font-size: 2.5em;
+  color: #555;
+  overflow: hidden;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  i {
+    margin: .3em;
+    cursor: pointer;
+    transition: color 300ms ease, margin-top 300ms ease;
+    transform: translateZ(0);
+
+    &:hover {
+      margin-top: -1px;
+    }
+
+    &#github:hover {
+      color: black;
+    }
+
+    &#linkedin:hover {
+      color: #0177B5;
+    }
+
+    &#mail:hover {
+      color: #F7B401;
+    }
+
+		&#codepen:hover {
+			color: black;
+		}
+  }
+}
+/*--------------------------------------------------
+smart social contact buttons
+--------------------------------------------------*/
+/* Wrapper */
+.icon-button {
+	background-color: white;
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.0rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+}
+.github span {
+	background-color: black;
+}
+.codepen span {
+	background-color: black;
+}
+.univ span {
+	background-color: black;
+}
+.mail span {
+	background-color: #db5a3c;
+}
+.linkedin span {
+  background-color: #0077b5;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 3.6rem;
+	z-index: 10;
+}
+.icon-button .icon-github {
+	color: black;
+}
+.icon-button .icon-codepen {
+	color: black;
+}
+.icon-button .icon-univ {
+	color: black;
+}
+.icon-button .icon-mail {
+	color: #db5a3c;
+}
+.icon-button .icon-linkedin {
+  color: #0077b5;
+}
+.icon-button:hover .icon-github,
+.icon-button:hover .icon-codepen,
+.icon-button:hover .icon-univ,
+.icon-button:hover .icon-linkedin,
+.icon-button:hover .icon-mail {
+	color: white;
 }
