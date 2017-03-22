@@ -9,6 +9,7 @@
     var item = document.getElementById(divID);
     if (item) {
             item.className=(item.className=='hidden')?'unhidden':'hidden';
+            item.className=(item.className=='unhidden')?'unhidden':'unhidden';
         }
         document.getElementById(hidDivId1).className = 'hidden';
         document.getElementById(hidDivId2).className = 'hidden';
