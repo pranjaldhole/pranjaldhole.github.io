@@ -53,11 +53,9 @@ HEADER
 BODY
 --------------------------------------------------*/
 body {
-    margin: auto;
-    width: 75%;
+    margin: 6% 5% 1% 5%;
     font-family: LM Sans Regular, Open Sans, sans-serif;
     background-color: #ffffff;
-    background: bottom center fixed;
     padding-bottom: 2em;
 }
 .hidden{
@@ -71,9 +69,11 @@ TopNAV
 --------------------------------------------------*/
 .topnav {
 	list-style: none;
-	margin: 0 0 0 0;
 	background: #333;
 	padding: 10px 5% 10px 5%;
+	position: fixed;
+	top: 0;
+	width: 80%;
 }
 .topnav li {
 	margin: 0 0 0 0;
@@ -106,8 +106,8 @@ ul.sidenav {
     padding: 0;
     width: 15%;
     background-color: #f1f1f1;
-    position: absolute;
-    height: 50%;
+    position: fixed;
+    height: auto;
 }
 
 ul.sidenav li a {
