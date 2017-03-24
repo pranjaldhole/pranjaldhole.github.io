@@ -55,8 +55,10 @@ BODY
 body {
     margin:5% 5% 1% 5%;
     font-family: LM Sans Regular, Open Sans, sans-serif;
+		background-image: url(/data/mathwall.jpg);
     background-color: #ffffff;
     padding-bottom: 2em;
+		position: relative;
 }
 .hidden{
     display:none;
@@ -70,10 +72,10 @@ TopNAV
 .topnav {
 	list-style: none;
 	background: #333;
-	padding: 10px 5% 10px 5%;
+	padding: 10px 30px 10px 30px;
 	position: fixed;
 	top: 0;
-	width: 80%;
+	width: 1075px;
 }
 .topnav li {
 	margin: 0 0 0 0;
@@ -196,6 +198,7 @@ style for creating timeline-like table
 	vertical-align: top;
 	border-right: 1px solid #007c41; /*navy; */
 	padding-right: 0.5em;
+	padding-bottom: 2em;
 	height: 120px;
 }
 .time_table_td_right {
