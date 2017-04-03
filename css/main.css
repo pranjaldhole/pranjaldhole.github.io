@@ -331,8 +331,14 @@ smart social contact buttons
 .github span {
 	background-color: black;
 }
+.bitbucket span {
+	background-color: #1350b2;
+}
 .codepen span {
 	background-color: black;
+}
+.kaggle span {
+	background-color: #17a4d3;
 }
 .univ span {
 	background-color: black;
@@ -363,8 +369,14 @@ smart social contact buttons
 .icon-button .icon-github {
 	color: black;
 }
+.icon-button .icon-bitbucket {
+	color: #1350b2;
+}
 .icon-button .icon-codepen {
 	color: black;
+}
+.icon-button .icon-kaggle {
+	color: #17a4d3;
 }
 .icon-button .icon-univ {
 	color: black;
@@ -376,7 +388,9 @@ smart social contact buttons
   color: #0077b5;
 }
 .icon-button:hover .icon-github,
+.icon-button:hover .icon-bitbucket,
 .icon-button:hover .icon-codepen,
+.icon-button:hover .icon-kaggle,
 .icon-button:hover .icon-univ,
 .icon-button:hover .icon-linkedin,
 .icon-button:hover .icon-mail {
