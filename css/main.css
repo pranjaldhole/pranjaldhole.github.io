@@ -291,12 +291,12 @@ smart social contact buttons
 /* Wrapper */
 .icon-button {
 	background-color: white;
-	border-radius: 2.0rem;
+	border-radius: 3.6rem;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 1.0rem;
-	height: 2.0rem;
-	line-height: 2.0rem;
+	font-size: 3.6rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
 	margin: 0 5px;
 	position: relative;
 	text-align: center;
@@ -304,7 +304,7 @@ smart social contact buttons
 	   -moz-user-select: none;
 	    -ms-user-select: none;
 	        user-select: none;
-	width: 2.0rem;
+	width: 3.6rem;
 }
 
 /* Circle */
