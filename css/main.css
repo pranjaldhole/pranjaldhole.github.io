@@ -249,8 +249,8 @@ smart social contact buttons
 --------------------------------------------------*/
 .social {
   text-align: center;
-  font-size: 2.5em;
-  color: #555;
+  font-size: 1.0em;
+  color: rgb(11, 68, 0);
   overflow: hidden;
 
   a {
@@ -260,13 +260,13 @@ smart social contact buttons
 
   i {
     margin: .3em;
-    cursor: pointer;
+	cursor: pointer;
     transition: color 300ms ease, margin-top 300ms ease;
     transform: translateZ(0);
 
     &:hover {
       margin-top: -1px;
-    }
+	}
 
     &#github:hover {
       color: black;
