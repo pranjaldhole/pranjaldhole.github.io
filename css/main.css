@@ -270,7 +270,11 @@ smart social contact buttons
 
     &#github:hover {
       color: black;
-    }
+	}
+	
+	&#researchgate:hover {
+		color: black;
+	}
 
     &#linkedin:hover {
       color: #0177B5;
@@ -328,6 +332,9 @@ smart social contact buttons
 	border-radius: 3.6rem;
 	margin: -1.8rem;
 }
+.researchgate span {
+	background-color: black;
+}
 .github span {
 	background-color: black;
 }
@@ -366,6 +373,9 @@ smart social contact buttons
 	width: 3.6rem;
 	z-index: 10;
 }
+.icon-button .icon-researchgate {
+	color: black;
+}
 .icon-button .icon-github {
 	color: black;
 }
@@ -387,6 +397,7 @@ smart social contact buttons
 .icon-button .icon-linkedin {
   color: #0077b5;
 }
+.icon-button:hover .icon-researchgate,
 .icon-button:hover .icon-github,
 .icon-button:hover .icon-bitbucket,
 .icon-button:hover .icon-codepen,
