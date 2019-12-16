@@ -194,7 +194,7 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
+  #_posts
   - scope:
       path: ""
       type: posts
@@ -212,7 +212,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  _teaching
+  # _teaching
   - scope:
       path: ""
       type: teaching
