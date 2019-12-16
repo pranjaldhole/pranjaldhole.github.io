@@ -23,7 +23,7 @@ talkmap_link             : false #change to true to add link to talkmap on talks
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : my-blog-posts
+    shortname            : pranjaldhole
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -212,7 +212,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  _teaching
   - scope:
       path: ""
       type: teaching
