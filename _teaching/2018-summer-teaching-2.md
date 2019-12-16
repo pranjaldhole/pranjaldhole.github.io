@@ -8,8 +8,10 @@ date: 2018-03-01
 location: "Bonn, Germany"
 ---
 
-**Topics**
-+ Computability
+Course taught for both Summer Semester 2018 and Winter Semester 2018-19.
+
+**Topics covered**
++ Computability and complexity
 + Randomized algorithms
 + Approximation schema
 + Probably Approximated Correct (PAC) learning

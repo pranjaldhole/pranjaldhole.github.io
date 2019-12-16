@@ -3,6 +3,7 @@ title: "Snake (pygame)"
 excerpt: "Python based implementation of game of snake using Pygame.<br/><img src='/images/snake.png'>"
 collection: portfolio
 ---
+
 Github repository: [https://github.com/pranjaldhole/snake](https://github.com/pranjaldhole/snake)
 
 This is game of snake developed in `python=3.6` using `pygame`.
@@ -38,7 +39,6 @@ or from any python IDE, e.g., spyder, visual studio code, etc.<br>
 **Note**: If you're running the script from IDE, make sure you current working directory is on the `current` path.
 
 ## Game play
-<img align="right" src="images/temptation.png" height="100">
 
 - The game consists, as of now, two versions:
     + Simple
