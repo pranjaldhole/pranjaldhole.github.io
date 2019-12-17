@@ -1,6 +1,6 @@
 ---
 title: 'Love versus symbol of love'
-date: 2012-08-14
+date: 2019-12-17
 permalink: /posts/2019/12/symbolic-love/
 tags:
   - Philosophy
