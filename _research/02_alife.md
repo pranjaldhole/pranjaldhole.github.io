@@ -2,17 +2,14 @@
 title: "Artificial Life"
 excerpt: "Embodied cognition, Neuro-robotics, Top-down contextuality<br/><img src='/images/evolution.jpg'>"
 collection: research
+tags:
+  - Embodied Cognition
+  - Neuro-robotics
+  - Top-down contextuality
+  - Evolutionary autonomous agents
 ---
 
-<img style="float: right;" src='/images/evolution.jpg' width="220">
-
-**Key topics**:
-+ Embodied Cognition
-+ Neuro-robotics
-+ Top-down contextuality
-+ Evolutionary autonomous agents
-
-
+<img style="float: right;" src='/images/evolution.jpg' width="200">
 How does brain process the sensory information? How is the sensory
 information encoded in the brain? The only way to be certain of how
 information is stored and retrieved by the brain is to build a mechanical

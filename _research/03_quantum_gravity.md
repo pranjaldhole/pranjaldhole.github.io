@@ -2,12 +2,11 @@
 title: "Nature of Gravity"
 excerpt: "How to consistently make sense of interaction between four fundamental forces of nature?"
 collection: research
+tags:
+  - Canonical General Relativity
+  - Constrained Dynamics
+  - Emergent Gravity
 ---
-
-**Key topics**:
-+ Canonical General Relativity
-+ Constrained Dynamics
-+ Emergent Gravity
 
 I spend a lot of time thinking about the gravitational interaction and nature of spacetime. During my masters thesis I tried to understand the notion of emergent phenomena in Physics. Since gravitational field equations have same conceptual status as equations of fluid mechanics, how much can we learn about nature of gravitational interaction if it is an emergent phenomena like fluid mechanics?
 
