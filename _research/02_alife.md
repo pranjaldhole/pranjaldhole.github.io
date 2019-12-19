@@ -17,7 +17,7 @@ model of the brain. Since that is rather daunting task, field of Artificial
 Life (AL) emerged. Soft-AL doesn't only concern itself with biological lifeform
 but uses computer simulations to understand general properties of automata
 that seem to exhibit life-like properties, e.g.,
-[Braitenberg vehicles]("https://en.wikipedia.org/wiki/Braitenberg_vehicle")
+[Braitenberg vehicles](https://en.wikipedia.org/wiki/Braitenberg_vehicle)
 which are reactive agents embedded in a simulated
 two dimensional environment and reacts to sensory stimuli to produce motor
 output.
