@@ -4,6 +4,7 @@ excerpt: "Project- Efficient Transport Alternatives (eTa)<br/><img src='/images/
 collection: research
 ---
 
+<img style="float: right;" src='/images/car.png' width="300">
 **Key topics**:
 - Cellular Automata
 - Self-organization
