@@ -2,7 +2,7 @@
 title: "Population dynamics (python)"
 excerpt: "Python library to conduct experiments in population dynamics.<br/><img src='/images/predator_prey.png'>"
 collection: portfolio
-image: "/images/predator_prey.png"
+image: /images/predator_prey.png
 ---
 
 <meta property="og:image" content="/images/predator_prey.png">
