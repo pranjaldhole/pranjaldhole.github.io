@@ -5,6 +5,8 @@ collection: portfolio
 ---
 Github repository: [https://github.com/pranjaldhole/science-blog-template/](https://github.com/pranjaldhole/science-blog-template/)
 
+Webpage: [https://pranjaldhole.github.io/science-blog-template/](https://pranjaldhole.github.io/science-blog-template/)
+
 A Jekyll-based website for writing blog posts, especially optimized for scientific writers.
 
 ## Installation instructions
