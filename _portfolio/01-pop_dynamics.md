@@ -4,6 +4,8 @@ excerpt: "Python library to conduct experiments in population dynamics.<br/><img
 collection: portfolio
 ---
 
+<meta property="og:image" content="/images/predator_prey.png">
+
 Library to conduct experiements on population dynamics.
 
 ![Lotka-Volterra predator-prey system](/images/predator_prey.png)
