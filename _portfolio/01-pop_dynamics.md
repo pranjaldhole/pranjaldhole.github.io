@@ -9,6 +9,6 @@ image: /images/predator_prey.png
 
 Library to conduct experiements on population dynamics.
 <a class="btn" href="https://github.com/quiet-minds/population-dynamics" target="_blank" title="repo"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Repo </a>
-<a class="btn" href="https://quiet-minds.github.io/population-dynamics/" target="_blank" title="Documentation"> Documentation </a>
+<a class="btn" href="https://artificial-life-lab.github.io/population-dynamics/" target="_blank" title="Documentation"> Documentation </a>
 
 ![Lotka-Volterra predator-prey system](/images/predator_prey.png)
