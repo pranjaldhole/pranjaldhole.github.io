@@ -20,7 +20,7 @@ Prior to that I studied theoretical physics in the [Gravitation and Relativity g
 At DZNE, we use state of the art computer vision and machine learning tools to understand the factors leading to neurodegenerative diseases.
 Outside DZNE work, part of my research focuses on building computational models to better understand the factors affecting the driving behaviour of people in the road traffic. I combine my knowledge of complex systems along with optimization algorithms to build traffic-flows models that approximate real-world driving behaviour.
 
-On top of my research I work on a number of side projects that falls under the umbrella term _Artificial Life_. You will find these projects while browsing through the contents of this webpage.
+In my free time, I construct simulation-based experiments that falls under the umbrella term _Artificial Life_. You will find these projects while browsing through the contents of this webpage.
 These pages are intended primarily to organize my research and to provide an overview for those interested in my work.
 
 Thank you for dropping by!
