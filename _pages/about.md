@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working as Senior Consultant/Engineer at Capgemini working in the field of Life Sciences. I work as a Data Scientist and consultant to client companies in biomedical and pharmaseutical domain.
+I am currently working as Senior Data Scientist at Capgemini Engineering working in the field of Life Sciences. I do research and help client companies in biomedical and pharmaseutical domain with a focus on early stage drug development. I am currently focussing on use of quantum compuring and machine learning to accelerate the developments in drug discovery.
 
 Previously I worked as a Data Scientist and Scientific Software Developer at the [Image and Data Analysis Facility](https://www.dzne.de/en/research/core-facilities/image-and-data-analysisfacility) at German Center for Neurodegenerative Diseases (DZNE).
 
