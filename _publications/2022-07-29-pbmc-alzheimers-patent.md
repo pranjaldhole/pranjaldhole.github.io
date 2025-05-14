@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2022-07-29-pbmc-alzheimers-patent
 excerpt: "The present invention relates to a method for identifying whether a mammal suffers from or is likely to suffer from Alzheimer's disease (AD) and/or a mild cognitive impairment (MCI), using a phenotypic signature as generated using multivariate classification algorithms."
 date: 2022-07-29
+venue: 'EP Patent'
 paperurl: 'https://patents.justia.com/patent/20240327913'
 citation: 'Fava, Eugenio and Schneider, Anja and Roth, Wera and Dhole, Pranjal and Blersch, Josephine and Denner, Philip. (2024). EP. Patent No.22760676.1'
 ---
